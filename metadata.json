@@ -1,0 +1,8 @@
+{
+  "name": "v 2.5",
+  "description": "A high-performance sidebar extension acting as a Second Brain for researchers and Sysadmins.",
+  "requestFramePermissions": [
+    "display-capture",
+    "geolocation"
+  ]
+}
