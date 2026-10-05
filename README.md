@@ -1,20 +1,12 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ARC (Augmented Response Core)
 
-# Run and deploy your AI Studio app
+A browser workspace with an AI sidebar.
 
-This contains everything you need to run your app locally.
+- **What is this:** an AI Studio app (React, Vite, TypeScript). The product spec is `APP.md`.
+- **What it does:** keeps the chat next to the open page, adds a HUD dashboard and further sidebar views.
+- **Why:** research and sysadmin work stays in one window.
+- **How to use:** `npm install`, set `GEMINI_API_KEY`, then `npm run dev`.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1o1BgfUQ9lnoFcDNUXp47TnNJYrZ_807p
+## Spec
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+`APP.md` lists the screens and their purpose. `guidelines.md` holds the design rules.
